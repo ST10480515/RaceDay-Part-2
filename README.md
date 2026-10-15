@@ -23,3 +23,8 @@ git commit -m "Add registration and login DTOs with validation"
 # 8. Auth controller
 git add RaceDayAPI/Controllers/AuthController.cs
 git commit -m "Add AuthController: register with BCrypt hashing, login, logout and me"
+# 9. Role filter
+git add RaceDayAPI/Filters
+git commit -m "Add SessionAuthorize filter for login and role-based access"
+
+# 10. Profile
