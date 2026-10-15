@@ -1,0 +1,7 @@
+@RaceDayAPI_HostAddress = http://localhost:5294
+
+GET {{RaceDayAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+//Install-Package Microsoft.EntityFrameworkCore.Design
