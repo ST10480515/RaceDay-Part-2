@@ -26,10 +26,13 @@ git commit -m "Add AuthController: register with BCrypt hashing, login, logout a
 # 9. Role filter
 git add RaceDayAPI/Filters
 git commit -m "Add SessionAuthorize filter for login and role-based access"
-
 # 10. Events
 git add RaceDayAPI/Models/Dtos/EventDtos.cs
 git commit -m "Add event request and response DTOs"
 git add RaceDayAPI/Controllers/EventsController.cs
 git commit -m "Add EventsController with Organiser-only create, update and delete"
-
+# 11. Categories
+git add RaceDayAPI/Models/Dtos/CategoryDtos.cs
+git commit -m "Add category DTOs"
+git add RaceDayAPI/Controllers/CategoriesController.cs
+git commit -m "Add CategoriesController for Organiser-managed event categories"
