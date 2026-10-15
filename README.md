@@ -5,5 +5,7 @@ git commit -m "Create ASP.NET Core Web API project with EF Core, session and Swa
 # 2. User model
 git add RaceDayAPI/Models/Users.cs RaceDayAPI/Models/UserRole.cs
 git commit -m "Add Users model with hashed password and role"
-
+# 3. Events and categories models
+git add RaceDayAPI/Models/Event.cs RaceDayAPI/Models/Category.cs
+git commit -m "Add Event and Category models"
      
