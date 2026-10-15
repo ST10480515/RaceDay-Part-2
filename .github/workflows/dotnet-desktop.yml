@@ -33,4 +33,5 @@ jobs:
 
       - name: Test
         run: dotnet test "${{ steps.sln.outputs.path }}" --no-build --verbosity normal
-        
+
+       
