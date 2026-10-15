@@ -14,3 +14,6 @@ git commit -m "Add EventEnrolment, Payment and Result models"
   # 5. DbContext
 git add RaceDayAPI/Data
 git commit -m "Add RaceDayDbContext with relationships, defaults and check constraints"  
+# 6. Migration
+git add RaceDayAPI/Migrations
+git commit -m "Add initial EF Core migration for the RaceDay schema"
