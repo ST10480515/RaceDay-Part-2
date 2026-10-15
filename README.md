@@ -20,3 +20,6 @@ git commit -m "Add initial EF Core migration for the RaceDay schema"
 # 7. Auth DTOs
 git add RaceDayAPI/Models/Dtos/RegisterDto.cs RaceDayAPI/Models/Dtos/LoginDto.cs
 git commit -m "Add registration and login DTOs with validation"
+# 8. Auth controller
+git add RaceDayAPI/Controllers/AuthController.cs
+git commit -m "Add AuthController: register with BCrypt hashing, login, logout and me"
