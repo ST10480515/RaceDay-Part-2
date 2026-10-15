@@ -11,4 +11,6 @@ git commit -m "Add Event and Category models"
  # 4. Enrolment, payment and result models
 git add RaceDayAPI/Models/EventEnrolment.cs RaceDayAPI/Models/Payment.cs RaceDayAPI/Models/Result.cs
 git commit -m "Add EventEnrolment, Payment and Result models"
-    
+  # 5. DbContext
+git add RaceDayAPI/Data
+git commit -m "Add RaceDayDbContext with relationships, defaults and check constraints"  
