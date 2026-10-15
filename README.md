@@ -8,4 +8,7 @@ git commit -m "Add Users model with hashed password and role"
 # 3. Events and categories models
 git add RaceDayAPI/Models/Event.cs RaceDayAPI/Models/Category.cs
 git commit -m "Add Event and Category models"
-     
+ # 4. Enrolment, payment and result models
+git add RaceDayAPI/Models/EventEnrolment.cs RaceDayAPI/Models/Payment.cs RaceDayAPI/Models/Result.cs
+git commit -m "Add EventEnrolment, Payment and Result models"
+    
